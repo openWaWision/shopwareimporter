@@ -1,0 +1,23 @@
+* Re-using existing connection! (#0) with host (nil)
+* Connected to (nil) (213.133.104.29) port 80 (#0)
+* Server auth using Digest with user 'wawision'
+> GET /shop/api/articles/10012? HTTP/1.1
+Authorization: Digest username="wawision", realm="Shopware4 REST-API", nonce="fe3795bb08fee2751bd906ccab4e6769", uri="/shop/api/articles/10012?", cnonce="NzU0NDU0", nc=00000005, qop="auth", response="5dbb7328064598bbe5b3b6210b758a6a", opaque="d75db7b160fe72d1346d2bd1f67bfd10", algorithm="MD5"
+Host: www.embedded-projects.net
+Accept: */*
+Content-Type: application/json; charset=utf-8
+Content-Length: 22
+
+* upload completely sent off: 22 out of 22 bytes
+* additional stuff not fine transfer.c:1037: 0 0
+* HTTP 1.1 or later with persistent connection, pipelining supported
+< HTTP/1.1 200 OK
+< Date: Sat, 25 Jul 2015 05:33:09 GMT
+< Server: Apache
+< X-Powered-By: PHP/5.4.43
+< Cache-Control: nocache, private
+< Transfer-Encoding: chunked
+< Content-Type: application/json
+< 
+* Connection #0 to host (nil) left intact
+* Closing connection #0
